@@ -1,6 +1,10 @@
 <template>
   <div class="card bg-dark text-white">
-    <img class="card-img" src="/img/sheridan-trafalgar.jpg" alt="Card image" />
+    <img
+      class="card-img m-a"
+      src="/img/sheridan-trafalgar.jpg"
+      alt="Card image"
+    />
     <div class="card-img-overlay d-flex flex-column bd-highlight">
       <h5 class="card-title p-2 bd-highlight" style="font-size:5vw">
         Welcome!
