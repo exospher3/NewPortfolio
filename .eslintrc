@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": ["plugin:vue/essential"],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 8
+  }
+}
