@@ -7,9 +7,9 @@
           :name="$t('sidebar.dashboard')"
           icon="tim-icons icon-chart-pie-36"
         />
-        <sidebar-link to="/about" :name="$t('about')" icon="tim-icons icon-chart-pie-36" />
-        <sidebar-link to="/weather" :name="$t('weather')" icon="tim-icons icon-chart-pie-36" />
-        <sidebar-link to="/project" :name="$t('project')" icon="tim-icons icon-chart-pie-36" />
+        <sidebar-link to="/about" :name="$t('about')" icon="tim-icons icon-single-02" />
+        <sidebar-link to="/weather" :name="$t('weather')" icon="tim-icons icon-atom" />
+        <sidebar-link to="/project" :name="$t('project')" icon="tim-icons icon-shape-star" />
       </template>
     </side-bar>
     <div class="main-panel">
