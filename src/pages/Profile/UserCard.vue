@@ -7,7 +7,7 @@
       <div class="block block-three"></div>
       <div class="block block-four"></div>
       <a href="#">
-        <img class="avatar" src="img/profile2.jpg" alt="..." />
+        <img class="avatar" src="img/pp.png" alt="..." />
         <h5 class="title display-2">{{ user.fullName }}</h5>
       </a>
       <p class="description">{{ user.title }}</p>
@@ -45,9 +45,10 @@ export default {
       type: Object,
       default: () => {
         return {};
-      }
-    }
-  }
+      },
+    },
+  },
 };
 </script>
-<style></style>
+<style>
+</style>
