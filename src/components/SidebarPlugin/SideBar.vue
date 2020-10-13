@@ -7,19 +7,27 @@
     <!-- -->
     <div class="sidebar-wrapper" id="style-3">
       <div class="logo">
-        <a href="#" aria-label="sidebar mini logo" class="simple-text logo-mini">
-          <div class="logo-img" :class="{'logo-img-rtl': $rtl.isRTL}">
-            <img src="img/calumon-face.png" alt />
+        <a
+          href="#"
+          aria-label="sidebar mini logo"
+          class="simple-text logo-mini"
+        >
+          <div
+            class="photo"
+            :class="{ 'logo-img-rtl': $rtl.isRTL }"
+            style="background-color: black"
+          >
+            <img src="img/profile2.jpg" class="rounded-circle" />
           </div>
         </a>
-        <a href="#" class="simple-text logo-normal">{{title}}</a>
+        <a href="#" class="simple-text logo-normal">{{ title }}</a>
       </div>
       <slot></slot>
       <ul class="nav">
         <!--By default vue-router adds an active class to each route link. This way the links are colored when clicked-->
         <slot name="links">
           <sidebar-link
-            v-for="(link,index) in sidebarLinks"
+            v-for="(link, index) in sidebarLinks"
             :key="index"
             :to="link.path"
             :name="link.name"

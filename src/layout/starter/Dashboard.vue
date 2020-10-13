@@ -13,29 +13,6 @@
       <div class="typewriter">Welcome !</div>
     </div>
   </div>
-
-  <!-- <div class="card bg-dark text-white">
-    <img
-      class="card-img m-a maimg"
-      src="/img/sheridan-trafalgar.jpg"
-      alt="Card image"
-    />
-    <div class="card-img-overlay d-flex flex-column bd-highlight">
-      <div class="typewriter">
-        <h5 class="card-title p-2 bd-highlight" style="font-size: 5vw">
-          Welcome !
-        </h5>
-      </div>
-      <div class="introduction-text">
-        <p class="shadow-lg" style="font-size: 1.5vw">
-          To Yassin Altaha's Portfolio. I am Computer System Analyst graduate
-          from Sheridan College awarded 2nd place in the capstone program for
-          the 2019 year, highly passtionate and motivated toward software
-          development and web deisgn.
-        </p>
-      </div>
-    </div>
-  </div> -->
 </template>
 <script>
 export default {
@@ -72,7 +49,7 @@ export default {
   width: 100%;
 }
 
-/* Top left text */
+/* Top left text 
 .top-center {
   position: absolute;
   top: 16px;
@@ -80,34 +57,35 @@ export default {
   transform: translate(-50%, -50%);
 }
 
-/* Top left text */
+/* Top left text 
 .bottom-center {
   position: absolute;
   bottom: 0px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* Top right text */
+/* Top right text 
 .top-right {
   position: absolute;
   top: 8px;
   right: 16px;
 }
 
-/* Bottom right text */
+/* Bottom right text 
 .bottom-right {
   position: absolute;
   bottom: 8px;
   right: 16px;
 }
 
-/* Centered text */
+/* Centered text 
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+*/
 
 .typewriter {
   color: #fff;
@@ -203,13 +181,6 @@ export default {
 
   100% {
     opacity: 1;
-  }
-}
-
-@media (max-width: 480px) {
-  .maimg {
-    /* min-width: 750px;
-    min-height: 750px; */
   }
 }
 </style>

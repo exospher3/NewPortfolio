@@ -96,7 +96,7 @@ import Modal from "@/components/Modal";
 export default {
   components: {
     CollapseTransition,
-    Modal
+    Modal,
   },
   computed: {
     routeName() {
@@ -105,14 +105,14 @@ export default {
     },
     isRTL() {
       return this.$rtl.isRTL;
-    }
+    },
   },
   data() {
     return {
       activeNotifications: false,
       showMenu: false,
       searchModalVisible: false,
-      searchQuery: ""
+      searchQuery: "",
     };
   },
   methods: {
@@ -133,8 +133,8 @@ export default {
     },
     toggleMenu() {
       this.showMenu = !this.showMenu;
-    }
-  }
+    },
+  },
 };
 </script>
 <style></style>
