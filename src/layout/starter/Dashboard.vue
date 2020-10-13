@@ -1,5 +1,20 @@
 <template>
-  <div class="card bg-dark text-white">
+  <div class="mcontainer">
+    <img src="/img/sheridan-trafalgar.jpg" alt="Snow" style="width: 100%" />
+    <div class="bottom-left">
+      <div class="introduction-text">
+        To Yassin Altaha's Portfolio. I am Computer System Analyst graduate from
+        Sheridan College awarded 2nd place in the capstone program for the 2019
+        year, highly passtionate and motivated toward software development and
+        web deisgn.
+      </div>
+    </div>
+    <div class="top-left">
+      <div class="typewriter">Welcome !</div>
+    </div>
+  </div>
+
+  <!-- <div class="card bg-dark text-white">
     <img
       class="card-img m-a maimg"
       src="/img/sheridan-trafalgar.jpg"
@@ -20,7 +35,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 <script>
 export default {
@@ -32,7 +47,69 @@ export default {
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
-.typewriter h5 {
+
+/* Container holding the image and the text */
+.mcontainer {
+  position: relative;
+  text-align: left;
+  font-size: 1.5vw;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  font-size: 5vw;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 100%;
+}
+
+/* Top left text */
+.top-center {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Top left text */
+.bottom-center {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.typewriter {
   color: #fff;
   font-family: Dosis;
   overflow: hidden;
@@ -129,12 +206,10 @@ export default {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 480px) {
   .maimg {
-    opacity: 0;
-    width: 100%;
-    height: auto;
-    min-height: 100%;
+    /* min-width: 750px;
+    min-height: 750px; */
   }
 }
 </style>
